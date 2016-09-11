@@ -76,3 +76,26 @@ section {
 .results {
 	margin-top: 2em;
 }
+
+.results ul {
+	list-style-type: none;
+}
+
+.results ul li {
+	margin-bottom: 0.75em;
+}
+
+.date {
+	color: #777;
+	padding-right: 0.5em;
+}
+
+.item-title {
+	color: rgb(0, 0, 238);
+	padding-right: 0.5em;
+	font-weight: bold;
+}
+
+.location {
+	color: #999;
+}
