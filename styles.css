@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+	text-decoration: none;
+	color: #000;
+}
+
+header {
+	background-color: #eee;
+	font-size: 1.25em;
+	padding: 0.5em;
+	border-bottom: 0.05em solid #ccc;
+}
+
+header ul {
+	float: right;
+	list-style-type: none;
+}
+
+header ul li {
+	float: left;
+	margin-left: 0.75em;
+}
+
+header ul li a {
+	color: rgb(0, 0, 238);
+}
