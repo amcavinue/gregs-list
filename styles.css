@@ -1,101 +1,101 @@
 * {
-	margin: 0;
-	padding: 0;
-	font-family: "Roboto", sans-serif;
-	text-decoration: none;
-	color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: #000;
 }
 
 header {
-	background-color: #eee;
-	font-size: 1.25em;
-	padding: 0.5em;
-	border-bottom: 0.05em solid #ccc;
+    background-color: #eee;
+    font-size: 1.25em;
+    padding: 0.5em;
+    border-bottom: 0.05em solid #ccc;
 }
 
 header ul {
-	float: right;
-	list-style-type: none;
+    float: right;
+    list-style-type: none;
 }
 
 header ul li {
-	float: left;
-	margin-left: 0.75em;
+    float: left;
+    margin-left: 0.75em;
 }
 
 header ul li a {
-	color: rgb(0, 0, 238);
+    color: rgb(0, 0, 238);
 }
 
 .content {
-	max-width: 780px;
-	margin: 0 auto;
+    max-width: 780px;
+    margin: 0 auto;
 }
 
-form input {
-	max-width: 30em;
-	min-width: 20em;
-	width: 50%;
-	padding: 0.25em;
-	font-size: 1.0125em;
-	margin-top: 2em;
-	border: 1px solid #ddd;
+.content form input {
+    max-width: 30em;
+    min-width: 20em;
+    width: 50%;
+    padding: 0.25em;
+    font-size: 1.0125em;
+    margin-top: 2em;
+    border: 1px solid #ddd;
 }
 
-form button {
-	background: #fff url('magnifying-glass.png') 0px 0px/100% no-repeat;
-	width: 2.5em;
-	height: 2.5em;
-	border: 1px solid #ddd;
-	position: relative;
-	top: -0.45em;
+.content form button {
+    background: #fff url('magnifying-glass.png') 0px 0px/100% no-repeat;
+    width: 2.5em;
+    height: 2.5em;
+    border: 1px solid #ddd;
+    position: relative;
+    top: -0.45em;
 }
 
-section {
-	margin-top: 2em;
+.results-content {
+    margin-top: 2em;
 }
 
-.pagination {
-	display: inline-block;
+.results-content .pagination {
+    display: inline-block;
 }
 
-.pagination a {
-	background-color: rgb(255, 255, 255);
-	padding: 0.5em;
-	border: 1px #ddd solid;
-	font-size: 1em;
+.results-content .pagination a {
+    background-color: rgb(255, 255, 255);
+    padding: 0.5em;
+    border: 1px #ddd solid;
+    font-size: 1em;
 }
 
-.pagination span {
-	background-color: rgb(255, 255, 255);
-	padding: 0.5em 1em;
-	border: 1px #ddd solid;
-	font-size: 1em;
+.results-content .pagination span {
+    background-color: rgb(255, 255, 255);
+    padding: 0.5em 1em;
+    border: 1px #ddd solid;
+    font-size: 1em;
 }
 
-.results {
-	margin-top: 2em;
+.results-content .results {
+    margin-top: 2em;
 }
 
-.results ul {
-	list-style-type: none;
+.results-content .results ul {
+    list-style-type: none;
 }
 
-.results ul li {
-	margin-bottom: 0.75em;
+.results-content .results ul li {
+    margin-bottom: 0.75em;
 }
 
-.date {
-	color: #777;
-	padding-right: 0.5em;
+.results-content .results .date {
+    color: #777;
+    padding-right: 0.5em;
 }
 
-.item-title {
-	color: rgb(0, 0, 238);
-	padding-right: 0.5em;
-	font-weight: bold;
+.results-content .results .item-title {
+    color: rgb(0, 0, 238);
+    padding-right: 0.5em;
+    font-weight: bold;
 }
 
-.location {
-	color: #999;
+.results-content .results .location {
+    color: #999;
 }
